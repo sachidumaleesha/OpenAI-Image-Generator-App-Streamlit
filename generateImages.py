@@ -18,5 +18,4 @@ def generate_images(key, user_prompt, image_size, number_of_images):
     for i in range(number_of_images):
         image_urls.append(response.data[i].url)
 
-    print(image_urls)
     return image_urls
